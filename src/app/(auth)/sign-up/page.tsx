@@ -9,6 +9,7 @@ import {
   type TAuthCredentialsValidator,
   authCredentialsValidator,
 } from "@/lib/validators/auth-credential-validator";
+import { trpc } from "@/trpc/client";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
